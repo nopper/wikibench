@@ -1,0 +1,6 @@
+*.tsv
+*.xml
+*.txt
+*.pyc
+*.pkl
+*.svmlight

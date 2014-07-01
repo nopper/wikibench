@@ -1,0 +1,23 @@
+{
+    "datasets": [
+        {"name": "erd", "file": "datasets/tsv/erd"}
+    ],
+    "annotators": [
+        {
+            "name": "wat",
+            "alias": "wat",
+            "configuration": {
+                "stripBy": "NONE",
+                "includeEntities": "false"
+            }
+        },
+        {
+            "name": "wat_stanford_ner",
+            "alias": "stanford",
+            "configuration": {}
+        }
+    ],
+    "experiments": [
+        {"name": "spot", "file": "results/spot_erd"}
+    ]
+}

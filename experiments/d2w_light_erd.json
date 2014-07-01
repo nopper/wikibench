@@ -1,0 +1,235 @@
+{
+    "datasets": [
+        {"name": "erd", "file": "datasets/tsv/erd"}
+    ],
+    "annotators": [
+        {
+            "name": "wat",
+            "alias": "base",
+            "configuration": {
+                "epsilon": 1.0,
+                "relatedness": "jaccard",
+                "method": "base"
+            }
+        },
+        {
+            "name": "wat",
+            "alias": "base-t",
+            "configuration": {
+                "epsilon": 1.0,
+                "relatedness": "jaccard",
+                "method": "base-t"
+            }
+        },
+        {
+            "name": "wat",
+            "alias": "base-nt",
+            "configuration": {
+                "epsilon": 1.0,
+                "relatedness": "jaccard",
+                "method": "base-nt"
+            }
+        },
+        {
+            "name": "wat",
+            "alias": "base-n",
+            "configuration": {
+                "epsilon": 1.0,
+                "relatedness": "jaccard",
+                "method": "base-n"
+            }
+        },
+        {
+            "name": "wat",
+            "alias": "pr",
+            "configuration": {
+                "epsilon": 1.0,
+                "relatedness": "jaccard",
+                "method": "pr"
+            }
+        },
+        {
+            "name": "wat",
+            "alias": "ctx-pr",
+            "configuration": {
+                "epsilon": 1.0,
+                "relatedness": "jaccard",
+                "method": "ctx-pr"
+            }
+        },
+        {
+            "name": "wat",
+            "alias": "comm-pr",
+            "configuration": {
+                "epsilon": 1.0,
+                "relatedness": "jaccard",
+                "method": "comm-pr"
+            }
+        },
+        {
+            "name": "wat",
+            "alias": "ppr",
+            "configuration": {
+                "epsilon": 1.0,
+                "relatedness": "jaccard",
+                "method": "ppr"
+            }
+        },
+        {
+            "name": "wat",
+            "alias": "ctx-ppr",
+            "configuration": {
+                "epsilon": 1.0,
+                "relatedness": "jaccard",
+                "method": "ctx-ppr"
+            }
+        },
+        {
+            "name": "wat",
+            "alias": "comm-ppr",
+            "configuration": {
+                "epsilon": 1.0,
+                "relatedness": "jaccard",
+                "method": "comm-ppr"
+            }
+        },
+        {
+            "name": "wat",
+            "alias": "ppr-uniform",
+            "configuration": {
+                "epsilon": 1.0,
+                "relatedness": "jaccard",
+                "method": "ppr-uniform"
+            }
+        },
+        {
+            "name": "wat",
+            "alias": "ctx-ppr-uniform",
+            "configuration": {
+                "epsilon": 1.0,
+                "relatedness": "jaccard",
+                "method": "ctx-ppr-uniform"
+            }
+        },
+        {
+            "name": "wat",
+            "alias": "comm-ppr-uniform",
+            "configuration": {
+                "epsilon": 1.0,
+                "relatedness": "jaccard",
+                "method": "comm-ppr-uniform"
+            }
+        },
+        {
+            "name": "wat",
+            "alias": "hits-auth",
+            "configuration": {
+                "epsilon": 1.0,
+                "relatedness": "jaccard",
+                "method": "hits-auth"
+            }
+        },
+        {
+            "name": "wat",
+            "alias": "ctx-hits-auth",
+            "configuration": {
+                "epsilon": 1.0,
+                "relatedness": "jaccard",
+                "method": "ctx-hits-auth"
+            }
+        },
+        {
+            "name": "wat",
+            "alias": "comm-hits-auth",
+            "configuration": {
+                "epsilon": 1.0,
+                "relatedness": "jaccard",
+                "method": "comm-hits-auth"
+            }
+        },
+        {
+            "name": "wat",
+            "alias": "hits-hub",
+            "configuration": {
+                "epsilon": 1.0,
+                "relatedness": "jaccard",
+                "method": "hits-hub"
+            }
+        },
+        {
+            "name": "wat",
+            "alias": "ctx-hits-hub",
+            "configuration": {
+                "epsilon": 1.0,
+                "relatedness": "jaccard",
+                "method": "ctx-hits-hub"
+            }
+        },
+        {
+            "name": "wat",
+            "alias": "comm-hits-hub",
+            "configuration": {
+                "epsilon": 1.0,
+                "relatedness": "jaccard",
+                "method": "comm-hits-hub"
+            }
+        },
+        {
+            "name": "wat",
+            "alias": "salsa-auth",
+            "configuration": {
+                "epsilon": 1.0,
+                "relatedness": "jaccard",
+                "method": "salsa-auth"
+            }
+        },
+        {
+            "name": "wat",
+            "alias": "ctx-salsa-auth",
+            "configuration": {
+                "epsilon": 1.0,
+                "relatedness": "jaccard",
+                "method": "ctx-salsa-auth"
+            }
+        },
+        {
+            "name": "wat",
+            "alias": "comm-salsa-auth",
+            "configuration": {
+                "epsilon": 1.0,
+                "relatedness": "jaccard",
+                "method": "comm-salsa-auth"
+            }
+        },
+        {
+            "name": "wat",
+            "alias": "salsa-hub",
+            "configuration": {
+                "epsilon": 1.0,
+                "relatedness": "jaccard",
+                "method": "salsa-hub"
+            }
+        },
+        {
+            "name": "wat",
+            "alias": "ctx-salsa-hub",
+            "configuration": {
+                "epsilon": 1.0,
+                "relatedness": "jaccard",
+                "method": "ctx-salsa-hub"
+            }
+        },
+        {
+            "name": "wat",
+            "alias": "comm-salsa-hub",
+            "configuration": {
+                "epsilon": 1.0,
+                "relatedness": "jaccard",
+                "method": "comm-salsa-hub"
+            }
+        }
+    ],
+    "experiments": [
+        {"name": "d2w", "file": "results/d2w_light_erd"}
+    ]
+}
